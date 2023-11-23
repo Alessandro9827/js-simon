@@ -4,3 +4,57 @@
     padding: 0;
     box-sizing: border-box;
  }
+
+ /*
+ Colori:
+ color-blue: #3535EC;
+ color-dark-blue: #190945;
+ */
+
+ body {
+    background-color: #190945;
+ }
+
+ .newYearCounter {
+    width: 450px;
+    margin: 2rem auto 0 auto;
+ }
+
+.title {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+ .panel {
+    background-color: #3535EC;
+    padding: 16px 24px;
+    border-radius: 8px;
+ }
+
+ h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+    font-size: 30px;
+ }
+
+ .counter {
+    display: flex;
+    justify-content: space-between;
+    color: yellow;
+ }
+
+ .color-red {
+    color: red;
+ }
+
+ .counter-block-number {
+    font-size: 4rem;
+    padding-right: 1.5rem;
+ }
+
+ .counter-block-label {
+    font-size: 20px;
+    text-transform: uppercase;
+ }
