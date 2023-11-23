@@ -29,10 +29,10 @@ function timer () {
     let diff= Math.floor(endDate - endDateInMs);
     
     if (diff > 0) {
-        daysEl.innerHTML = Math.floor (diff / daysInMs);
-        hoursEl.innerHTML = Math.floor ( (diff % daysInMs) /hoursInMs );
-        minutesEl.innerHTML = Math.floor ((diff % hoursInMs) /minutesEl);
-        secondsEl.innerHTML = Math.floor ((diff % minutesInMs) /secondInMs);
+        daysEl.innerHTML = Math.floor(diff / daysInMs);
+        hoursEl.innerHTML = Math.floor((diff % daysInMs) / hoursInMs );
+        minutesEl.innerHTML = Math.floor((diff % hoursInMs) / minutesInMs);
+        secondsEl.innerHTML = Math.floor((diff % minutesInMs) / secondInMs);
     }
     else {
         clearInterval(timer);
